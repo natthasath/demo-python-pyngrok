@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "demo-python-pyngrok"
+version = "0.1.0"
+description = ""
+authors = ["Natthasath Saksupanara <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_pyngrok"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyngrok = "^5.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
